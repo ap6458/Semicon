@@ -1,0 +1,37 @@
+{
+    "architecture": "DRAM",
+    "image_size": [
+        1000,
+        1000
+    ],
+    "scale_factor": 10,
+    "reference_start_high_res": {
+        "x": 6737,
+        "y": 8602
+    },
+    "reference_center_high_res": {
+        "x": 7237.0,
+        "y": 9102.0
+    },
+    "target_center_search": {
+        "x": 723.7,
+        "y": 910.2
+    },
+    "reference_rotation_deg": -1.871237210951259,
+    "generator": {
+        "wordline_spacing": "randomized",
+        "bitline_spacing": "randomized",
+        "line_width": "randomized",
+        "contact_size": "randomized",
+        "contact_shape": "circle/square/mixed",
+        "local_features": true,
+        "missing_contacts": true,
+        "edge_brightening": true,
+        "independent_noise": true,
+        "search_more_noisy": true,
+        "blur": true,
+        "brightness_variation": true,
+        "contrast_variation": true,
+        "rotation_variation": true
+    }
+}

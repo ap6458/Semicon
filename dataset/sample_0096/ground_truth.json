@@ -1,0 +1,15 @@
+{
+    "reference_start": {
+        "x": 7256,
+        "y": 5106
+    },
+    "reference_center_high_res": {
+        "x": 7756.0,
+        "y": 5606.0
+    },
+    "target_center_search": {
+        "x": 775.6,
+        "y": 560.6
+    },
+    "scale_factor": 10
+}

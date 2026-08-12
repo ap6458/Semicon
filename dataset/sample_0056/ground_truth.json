@@ -1,0 +1,15 @@
+{
+    "reference_start": {
+        "x": 2999,
+        "y": 5529
+    },
+    "reference_center_high_res": {
+        "x": 3499.0,
+        "y": 6029.0
+    },
+    "target_center_search": {
+        "x": 349.9,
+        "y": 602.9
+    },
+    "scale_factor": 10
+}
