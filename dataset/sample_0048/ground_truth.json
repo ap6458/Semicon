@@ -6,18 +6,18 @@
     ],
     "scale_factor": 10,
     "reference_start_high_res": {
-        "x": 3898,
-        "y": 7867
+        "x": 2711,
+        "y": 3735
     },
     "reference_center_high_res": {
-        "x": 4398.0,
-        "y": 8367.0
+        "x": 3211.0,
+        "y": 4235.0
     },
     "target_center_search": {
-        "x": 439.8,
-        "y": 836.7
+        "x": 321.1,
+        "y": 423.5
     },
-    "reference_rotation_deg": -0.7808671792107482,
+    "reference_rotation_deg": 0.6868072711834992,
     "generator": {
         "wordline_spacing": "randomized",
         "bitline_spacing": "randomized",
