@@ -1,0 +1,65 @@
+{
+    "architecture": "DRAM",
+    "reference_image": {
+        "width": 1000,
+        "height": 1000
+    },
+    "search_image": {
+        "width": 1000,
+        "height": 1000
+    },
+    "scale_factor": 10.427696447627884,
+    "reference_scale_variation": 1.0127127945991363,
+    "reference_rotation_deg": 0.5190543926031297,
+    "reference_start_high_res": {
+        "x": 9486,
+        "y": 6446
+    },
+    "search_crop_origin_high_res": {
+        "x": 594,
+        "y": 710
+    },
+    "target_center_high_res": {
+        "x": 9986,
+        "y": 6946
+    },
+    "target_center_search": {
+        "x": 900.6783086917067,
+        "y": 598.0227782156604
+    },
+    "target_features": [
+        {
+            "type": "missing_contact",
+            "x_high_res": 10109,
+            "y_high_res": 7059
+        },
+        {
+            "type": "line_interruption",
+            "x_high_res": 9907,
+            "y_high_res": 6807
+        },
+        {
+            "type": "local_bridge",
+            "x_high_res": 9999,
+            "y_high_res": 7186
+        },
+        {
+            "type": "local_pitch_perturbation",
+            "x_high_res": 10141,
+            "y_high_res": 6988,
+            "scale": 0.972462362931057
+        }
+    ],
+    "generator_requirements": {
+        "independent_reference_noise": true,
+        "independent_search_noise": true,
+        "edge_brightening": true,
+        "blur": true,
+        "rotation_variation": true,
+        "scaling_variation": true,
+        "search_has_higher_noise": true,
+        "known_ground_truth": true,
+        "periodic_dram_layout": true,
+        "subtle_target_local_variations": true
+    }
+}

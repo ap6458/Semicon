@@ -1,37 +1,65 @@
 {
     "architecture": "DRAM",
-    "image_size": [
-        1000,
-        1000
-    ],
-    "scale_factor": 10,
-    "reference_start_high_res": {
-        "x": 912,
-        "y": 1147
+    "reference_image": {
+        "width": 1000,
+        "height": 1000
     },
-    "reference_center_high_res": {
-        "x": 1412.0,
-        "y": 1647.0
+    "search_image": {
+        "width": 1000,
+        "height": 1000
+    },
+    "scale_factor": 9.698376652548802,
+    "reference_scale_variation": 1.0194647213143109,
+    "reference_rotation_deg": -0.5113929428700854,
+    "reference_start_high_res": {
+        "x": 5635,
+        "y": 7116
+    },
+    "search_crop_origin_high_res": {
+        "x": 221,
+        "y": 1976
+    },
+    "target_center_high_res": {
+        "x": 6135,
+        "y": 7616
     },
     "target_center_search": {
-        "x": 141.2,
-        "y": 164.7
+        "x": 609.7927737675313,
+        "y": 581.5406229369086
     },
-    "reference_rotation_deg": -1.2541918215604677,
-    "generator": {
-        "wordline_spacing": "randomized",
-        "bitline_spacing": "randomized",
-        "line_width": "randomized",
-        "contact_size": "randomized",
-        "contact_shape": "circle/square/mixed",
-        "local_features": true,
-        "missing_contacts": true,
+    "target_features": [
+        {
+            "type": "missing_contact",
+            "x_high_res": 6314,
+            "y_high_res": 7675
+        },
+        {
+            "type": "line_interruption",
+            "x_high_res": 5949,
+            "y_high_res": 7889
+        },
+        {
+            "type": "local_bridge",
+            "x_high_res": 6348,
+            "y_high_res": 7682
+        },
+        {
+            "type": "local_pitch_perturbation",
+            "x_high_res": 6372,
+            "y_high_res": 7326,
+            "scale": 1.0131077693225647
+        }
+    ],
+    "generator_requirements": {
+        "independent_reference_noise": true,
+        "independent_search_noise": true,
         "edge_brightening": true,
-        "independent_noise": true,
-        "search_more_noisy": true,
         "blur": true,
-        "brightness_variation": true,
-        "contrast_variation": true,
-        "rotation_variation": true
+        "rotation_variation": true,
+        "scaling_variation": true,
+        "search_has_higher_noise": true,
+        "known_ground_truth": true,
+        "periodic_dram_layout": true,
+        "subtle_target_local_variations": true
     }
 }
